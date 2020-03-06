@@ -46,7 +46,7 @@ public class MainCircles extends JFrame {
         for (int i = 0; i < sprites.length; i++) {
             sprites[i].update(canvas, deltaTime);
         }
-        //Background.update(canvas,deltaTime);
+        Background.update(canvas,deltaTime);
     }
 
     private void render(MainCanvas canvas, Graphics g) {
